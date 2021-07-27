@@ -1,0 +1,105 @@
+-- 
+-- * example.tcl
+-- scripting examples
+-- 
+-- * ram.vhd
+-- Type, array, process, vector to integer
+-- 
+-- * lesson1.vhd
+-- eDegil, eTumlesik
+-- 
+-- * mutex1.vhd
+-- x when y else z
+-- 
+-- * caesarcipher.vhd
+-- process variable, mod, to_integer signed/unsigned
+-- 
+-- * quiz.vhd
+-- Variable rules, Logic Gates, String Ops., Generic
+-- Sequential, Wait Types, After, Loop, Scripting
+-- Testbench: Component, Port Map
+-- 
+-- * notgate.vhd
+-- Entity, Architecture, signal
+-- 
+-- * andgate.vhd
+-- Concurrent expression
+-- 
+-- * mux-comb.vhd
+-- Multiple architectures, combinational mux
+-- x when a else y when b else z
+-- with x select a when y, b when z, c when others
+-- 
+-- * paritybit.vhd
+-- vector xor
+-- 
+-- * encoder.vhd
+-- vector when else
+-- 
+-- * addition.vhd
+-- generic, arithmatic, vector concat
+-- 
+-- * comparator.vhd
+-- when else comparison
+-- 
+-- * srff-seq.vhd
+-- flip-flop, variable, sequential
+-- 
+-- * shifter-seq.vhd
+-- subprograms (function, procedure), sequential
+-- 
+-- * vectors.vhd
+-- constant, wait, generic
+-- 
+-- * rotator.vhd
+-- sequential, 'Z', vector concat
+-- 
+-- * state-machine.vhd
+-- Type states, sequential, case x is when a => k, if else
+-- 
+-- * eVe_TB.vhd
+-- Testbench: component, port map
+-- wait, process
+-- 
+-- * register8bit.vhd
+-- sequential, D-FF
+-- 
+-- * ParallelToSerial.vhd
+-- Generic, process, concat, s'Event
+-- 
+-- * counter.vhd
+-- Generic, process, variable, vector fill "(others=>'0')"
+-- 
+-- * demux.vhd
+-- vector, when else string
+-- 
+-- * decoder.vhd
+-- concurrent when else
+-- 
+-- * alu.vhd
+-- with x select a when y, b when others
+-- arithmatic, logic
+-- 
+-- * rom.vhd
+-- Type, array, constant array, process sequential, array conv_integer
+-- 
+-- * cikolata.vhd
+-- state machine, sequential, case x is when a =>
+-- 
+-- * eAdd_TB.vhd
+-- Testbench: Component, Generic Map, Port Map, process is, wait
+-- 
+-- * xnor.vhd
+-- xnor operand, generic
+-- 
+-- * xnor_tb.vhd
+-- Testbench: Component, Generic Map, Port Map, labelled process, wait
+--
+-- * pkg.vhd
+-- Package: Constant, Package Body, Function
+-- 
+-- * fileio.vhd
+-- File: write, read, readline, writeline, file, file_open, file_close, endfile
+-- 
+
+Entity TOC is End Entity;

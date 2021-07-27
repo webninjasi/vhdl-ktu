@@ -1,0 +1,58 @@
+--* Definitions
+-- constant i : integer := 5;
+-- variable v : integer; -- := 9;
+-- signal s : std_logic;
+-- 
+-- type t is (a, b, c, d);
+-- type r is range 0 to 10;
+-- type a is array(0 to 31) of integer;
+-- 
+--* Sequential Statements
+-- if .. then
+-- ...
+-- elsif .. then
+-- ...
+-- else
+-- ...
+-- end if;
+-- 
+-- case .. is
+-- when .. =>
+-- ...
+-- end case;
+-- 
+-- for i in 1 to 9 loop
+-- --for i in 9 downto 1 loop
+-- --for i in t loop
+-- ...
+-- end loop;
+-- 
+-- WAIT ..; -- ON, UNTIL, FOR
+-- 
+-- v := ..
+-- s <= ..
+-- 
+--* Concurrent Statements
+-- block
+-- -- type, signal, constant, subprogram
+-- begin
+-- 
+-- process
+-- -- type, variable, constant, subprogram
+-- begin
+-- 
+-- architecture
+-- -- type, signal, constant, subprogram
+-- begin
+-- 
+-- with .. select
+-- x <= .. when ..,
+--      .. when others;
+-- 
+-- x <= .. when .. else ..;
+-- 
+-- for i in 0 to 9 generate
+-- ...
+-- end generate;
+
+Entity syntax is End Entity;
